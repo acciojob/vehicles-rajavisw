@@ -13,7 +13,6 @@ public class F1 extends Car {
 
         int currentSpeed=getCurrentSpeed();
         newSpeed+=currentSpeed+rate;
-        setCurrentSpeed(newSpeed);
         /**
          * speed 0: gear 1
          * speed 1-50: gear 1
